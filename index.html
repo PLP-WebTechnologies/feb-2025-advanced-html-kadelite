@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Practice</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to tdk_Tech Practice Page</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+            <li>Fourth Item</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg" alt="Nature Image from Pexels" width="500">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adekunle Adeleke</td>
+                    <td>21, Gloryland Estate, Lagos, Nigeria</td>
+                    <td>08130935473</td>
+                    <td>mechatronics.samson@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Adekunle Esther</td>
+                  <td>21, Gloryland Estate, Lagos, Nigeria</td>
+                  <td>08130935473</td>
+                  <td>mechatronics.samson@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Adekunle Abiola</td>
+                  <td>21, Gloryland Estate, Lagos, Nigeria</td>
+                  <td>08130935473</td>
+                  <td>mechatronics.samson@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Adekunle David</td>
+                  <td>21, Gloryland Estate, Lagos, Nigeria</td>
+                  <td>08130935473</td>
+                  <td>mechatronics.samson@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Adekunle Lian</td>
+                  <td>21, Gloryland Estate, Lagos, Nigeria</td>
+                  <td>08130935473</td>
+                  <td>mechatronics.samson@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="kenya">Kenya</option>
+                <option value="sa">SA</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling" name="interests" value="traveling">
+            <label for="traveling">Traveling</label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Multimedia Elements -->
+    <section>
+        <h2>Multimedia Elements</h2>
+        <!-- Audio -->
+        <h3>Audio Example</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Video -->
+        <h3>Video Example</h3>
+        <video controls width="500">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 HTML5 Practice. All rights reserved.</p>
+    </footer>
+</body>
+</html>
